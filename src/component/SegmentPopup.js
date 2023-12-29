@@ -34,7 +34,7 @@ const handleSaveSegment = async () => {
 
    ; 
   try {
-    const response = await fetch( '/api', {
+    const response = await fetch( 'https://vickyvivek13.github.io/api', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
